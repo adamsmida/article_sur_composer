@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// Combinaison de l'image et du texte dans une même colonne
+
 @Composable
 fun TutorialScreen(modifier: Modifier = Modifier) {
     Column(
@@ -53,7 +53,7 @@ fun TutorialScreen(modifier: Modifier = Modifier) {
 @Composable
 fun HeaderImage(modifier: Modifier = Modifier) {
     Image(
-        painter = painterResource(id = R.drawable.bg_compose_background), // Replace with your image resource
+        painter = painterResource(id = R.drawable.bg_compose_background),
         contentDescription = "Jetpack Compose Tutorial",
         modifier = Modifier
             .fillMaxWidth()
